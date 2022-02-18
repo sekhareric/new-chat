@@ -17,5 +17,10 @@ pipeline {
                 git branch: 'dev', url: 'https://github.com/sekhareric/new-chat.git'
             }
         }
+        stage('bye') {
+            steps {
+                echo 'bye guys...!'
+            }
+        }
     }
 }
